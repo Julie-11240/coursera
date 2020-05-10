@@ -32,9 +32,8 @@ h2{
 
 .MyBox {
  
-  margin:auto;
-  width:90%;
-  height: 250px;
+margin: 2em;
+  
   position: relative;
 }
 
