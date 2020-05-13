@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ccffff;
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.container{
+  margin: 10px 0 40px 50px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #99ccff;
+  border-radius: 0;
+  border: 0;
+}
+
+#collapsable-nav{
+  background-color: #00bfff;
+  width: 100%;
+vertical-align: center;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+ font-family: 'Balsamiq Sans', sans-serif;
+  color: #4c0099;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #4c0099;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #99ccff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*CONTENT*/
+.content-head h2{
+  font-family: 'Balsamiq Sans', sans-serif;
+  color: #000080;
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+
+.MyBox {
+ margin: 20px 5px 60px -10px;
+  position: relative;
+
+width: 100%;
+}
+
+.MyText {
+  margin-left: 30px;
+  padding-left: .8em;
+  padding-right: .8em;
+  padding-top: 3em;
+  padding-bottom: auto;
+  border: 2px solid black;
+  background-color: #99ccff;
+  min-height: 1000px;
+  width: 100%;
+  font-family: 'Balsamiq Sans', sans-serif;
+  color:  #4c0099;
+}
+
+#back-to-top{
+  color: purple;
+  font-weight: bold;
+}
+/* Simple Responsive Framework. */
+.row{
+  width: 100%;
+}
+
+h3{
+  margin: 5px;
+  position: absolute;
+  width: 100%;
+  padding-top: 5px;
+  left: 20px;
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-style: italic;
+  color: black;
+  vertical-align: center;
+}
+
+/*END CONTENT*/
+
+
+/*LARGE - DESKTOP*/
+@media (min-width: 992px){
+ .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/*SMALL - TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-sm-1 {
+    float: left;
+    width: 50%;
+  }
+.col-sm-2 {
+    float: left;
+    width: 50%;
+  }
+.col-sm-3 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/*EXTRA-SMALL - PHONES*/
+@media (max-width: 767px) {
+  /* Header */
+
+  .container{
+  margin: 10px 0 0 10px;
+}
+  .navbar-brand {
+    padding-top: 20px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  /* End Header */
+.col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+
+/*SUPER-SMALL XXS*/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 20px;
+    font-size: 8vw;
+  }
+  /* End Header */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  .col-xxs-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
