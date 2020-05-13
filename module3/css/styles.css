@@ -78,7 +78,7 @@ vertical-align: center;
 }
 
 .MyBox {
- margin: 20px 5px 60px -10px;
+ margin: 20px 5px 20px -10px;
   position: relative;
 
 width: 100%;
@@ -86,6 +86,7 @@ width: 100%;
 
 .MyText {
   margin-left: 30px;
+  margin-bottom: 60px;
   padding-left: .8em;
   padding-right: .8em;
   padding-top: 3em;
@@ -98,10 +99,6 @@ width: 100%;
   color:  #4c0099;
 }
 
-#back-to-top{
-  color: purple;
-  font-weight: bold;
-}
 /* Simple Responsive Framework. */
 .row{
   width: 100%;
@@ -117,6 +114,11 @@ h3{
   font-style: italic;
   color: black;
   vertical-align: center;
+}
+
+#link{
+  color: purple;
+  font-weight: bold;
 }
 
 /*END CONTENT*/
